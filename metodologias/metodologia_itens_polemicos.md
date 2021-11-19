@@ -61,7 +61,7 @@ Os itens foram calibrados com função [mirt](https://www.rdocumentation.org/pac
 ## Identificando itens inadequados:
 
 
-## Seleção de itens suspeitos a serem inadequados 
+### Seleção de itens suspeitos a serem inadequados 
 
 Para cada ítem se obteve os seguintes parâmetros a partir do modelo obtidos acima e da matriz dicotômica de resposta dos alunos:
 
@@ -80,7 +80,7 @@ Para cada ítem se obteve os seguintes parâmetros a partir do modelo obtidos ac
 
 Itens que apresentaram: correlação bisserial menor que 0.3,  raiz quadrada média do erro de aproximação da estatística de ajuste de Bocks maior que 0.05, coeficiente Crit maior que 80 ou parâmetro de discriminação menor que 0.34 foram selecionados como "suspeitos de serem inadequados".
 
-## Classificação de item como inadequados 
+### Classificação de item como inadequados 
 
 Na literatura da área é sempre recomendado que esses limiares que classificam os ítens sejam interpretados com cautela e que se faça uma análise de suas curvas de funções de respostas observada (onde se coloca porcentagem de acerto no eixo Y e a proficiência no eixo X) junto com o enunciado e opções da questão para compreender se de fato há uma inadequação do item. Logo, esses itens tiveram suas curvas de funções de resposta ao item comparadas visualmente com o padrão de respostas empírico dos alunos.  agrupados em percentiles segundo suas notas para diagnosticar comportamentos claramente anormais que fogem do que seria esperado de uma questão com um padrão sigmóide monotônico (essas são as curvas dos gráficos presentes na matéria). 
 
