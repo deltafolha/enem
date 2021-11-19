@@ -26,31 +26,31 @@ Os itens foram calibrados com função mirt do pacote mirt da linguagem de progr
 
 * Se utilizou o modelo de 3 parâmetros
 
-** As prioris de cada um dos parâmetros para todos os ítens foram:
+    * As prioris de cada um dos parâmetros para todos os ítens foram:
 
-*** parâmetro de discriminação
+        * parâmetro de discriminação
 
-*** Distribuição: lnorm (log-normal)
+        * Distribuição: lnorm (log-normal)
 
-*** Média log: 1,00
+        * Média log: 1,00
 
-*** Desvio padrão log: 0.,5
+        * Desvio padrão log: 0.,5
 
-** parâmetro de dificuldade
+    * parâmetro de dificuldade
 
-*** Distribuição: norm (normal/Gaussiana)
+        * Distribuição: norm (normal/Gaussiana)
 
-*** Média: 0,00
+        * Média: 0,00
 
-*** Desvio Padrão: 1,00
+        * Desvio Padrão: 1,00
 
-** parâmetro de acerto casual
+    * parâmetro de acerto casual
 
-*** Distribuição: expbeta (beta após aplicar a função plogis ao valor de entrada)
+        * Distribuição: expbeta (beta após aplicar a função plogis ao valor de entrada)
 
-*** Alpha: 5
+        * Alpha: 5
 
-*** Beta: 17
+        * Beta: 17
 
 * O limiar de convergência utilizado foi 0,001
 
