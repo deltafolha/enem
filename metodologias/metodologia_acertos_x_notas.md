@@ -13,7 +13,9 @@ Eles fazem parte da TRI (Teoria da Resposta ao Item) de 3 parâmetros, metodolog
 * A correspondência entre as questões e as respostas dos alunos  presentes nos microdados foram feitas utilizando os arquivos  “itens_prova” de cada ano\*\*\*.
 
 \* Dois alunos foram removidos porque apresentavam menos respostas do que seria o esperado (aluno com ID 400000364244 de 2012 apresentava 40 respostas válidas na prova de LC e aluno com ID 100000703699 apresentava 44 respostas válidas na prova de LC em 2009. Em ambos casos eram esperadas 45 respostas válidas)
+
 \*\* Apesar dessa observação não estar presente no dicionário de dados, as provas com ID 101 até 116 de 2010 são reaplicaçõe;.
+
 \*\*\* A prova rosa de 2014 de linguagens e códigos (ID 198) apresenta ordenação errada no arquivo “itens_prova”, por isso para esse caso específico foi utilizada a ordem disponível pelo curso objetivo aqui.
 
 ## Cálculo dos parâmetros das questões utilizando o modelo de 3 parâmetros da teoria da resposta ao ítem:
@@ -23,20 +25,35 @@ Em cada prova os alunos foram agrupados pela quantidade de acertos. Foram removi
 Os itens foram calibrados com função mirt do pacote mirt da linguagem de programação R. Os parâmetros que não estão descritos aqui é porque foram utilizados os valores padrões da função.
 
 * Se utilizou o modelo de 3 parâmetros
+
 ** As prioris de cada um dos parâmetros para todos os ítens foram:
+
 *** parâmetro de discriminação
+
 *** Distribuição: lnorm (log-normal)
+
 *** Média log: 1,00
+
 *** Desvio padrão log: 0.,5
+
 ** parâmetro de dificuldade
+
 *** Distribuição: norm (normal/Gaussiana)
+
 *** Média: 0,00
+
 *** Desvio Padrão: 1,00
+
 ** parâmetro de acerto casual
+
 *** Distribuição: expbeta (beta após aplicar a função plogis ao valor de entrada)
+
 *** Alpha: 5
+
 *** Beta: 17
+
 * O limiar de convergência utilizado foi 0,001
+
 * Média e desvio padrão da variável latente utilizada foram as mesmas observadas na prova após a conversão da escala Enem. Ou seja, para obter a média da variável latente se utilizou a média das notas dos alunos da prova e se subtraiu 500 e depois se dividiu o valor obtido por 100. Já para se obter o desvio padrão da variável latente se dividiu o desvio padrão das notas dos alunos da prova por 100.
 
 ## Dificuldade das questões:
