@@ -1,4 +1,4 @@
-# Material e métodos do artigo "No Enem, comece pelas mais fáceis"
+# Material e métodos do artigo "XXXXXXXXXXXXXXXXXXXX"
 
 A reportagem se baseia em um modelo estatístico que estima a chance de um candidato acertar uma questão dada a sua proficiência na prova. 
 
@@ -13,6 +13,8 @@ Eles fazem parte da TRI (Teoria da Resposta ao Item) de 3 parâmetros, metodolog
 * Foram analisadas somente as primeiras aplicações das provas de cada ano\*\*;
 
 * A correspondência entre as questões e as respostas dos alunos  presentes nos microdados foram feitas utilizando os arquivos  “itens_prova” de cada ano\*\*\*.
+
+* Como os itens supostamente polêmicos estavam todos nas provas de linguagem e ciências humanas, somente essas provas analisadas. No caso de linguagens se removeu os ites de inglês e espanhol, já que são os mesmos para todos os alunos. 
 
 \* Dois alunos foram removidos porque apresentavam menos respostas do que seria o esperado (aluno com ID 400000364244 de 2012 apresentava 40 respostas válidas na prova de LC e aluno com ID 100000703699 apresentava 44 respostas válidas na prova de LC em 2009. Em ambos casos eram esperadas 45 respostas válidas)
 
@@ -69,14 +71,11 @@ Para cada ítem se obteve os seguintes parâmetros a partir do modelo obtidos ac
 
 * Raiz quadrada média do erro de aproximação da estatística de ajuste de Bocks (utilizando a função [mirt::itemfit](https://rdrr.io/cran/mirt/man/itemfit.html))\*\* para verificar se o modelo utilizado está prevendo de forma satisfatória a probabilidade de acertos no item segundo proficiência do candidato;
 
-* Coeficiente Crit (utilizando a função [mokken::check.monotonicity](https://rdrr.io/cran/mokken/man/check.monotonicity.html))\*\* para identificar se em algum ponto da escala a probabilidade de acerto no item decresce quando a proficiência do candidato aumenta; 
+* Coeficiente Crit (utilizando a função [mokken::check.monotonicity](https://rdrr.io/cran/mokken/man/check.monotonicity.html)) para identificar se em algum ponto da escala a probabilidade de acerto no item decresce quando a proficiência do candidato aumenta; 
 
 * Parâmetro de Discriminação (utilizando a função [mirt::coef](https://rdrr.io/cran/mirt/man/coef-method.html)) para detectar itens com pouca capacidade de distinguir alunos segundo sua proeficiência;
 
 \* No caso da correlação bisserial para comparar com achados anteriores, além da amostra homogênea citada acima também se usou um modelo com representação aleatória, onde se sorteou 500 mil alunos de cada prova.
-
-\*\* Como essas funções não permitem a presença de respostas ausentes, para as provas de linguagem e suas tecnologias a partir de 2010 foram removidos itens de língua estrangeira, já que nem todos os alunos respondem às mesmas questões. 
-
 
 Itens que apresentaram: correlação bisserial menor que 0.3,  raiz quadrada média do erro de aproximação da estatística de ajuste de Bocks maior que 0.05, coeficiente Crit maior que 80 ou parâmetro de discriminação menor que 0.34 foram selecionados como "suspeitos de serem inadequados".
 
@@ -84,5 +83,4 @@ Itens que apresentaram: correlação bisserial menor que 0.3,  raiz quadrada mé
 
 Na literatura da área é sempre recomendado que esses limiares que classificam os ítens sejam interpretados com cautela e que se faça uma análise de suas curvas de funções de respostas observada (onde se coloca porcentagem de acerto no eixo Y e a proficiência no eixo X) junto com o enunciado e opções da questão para compreender se de fato há uma inadequação do item. Logo, esses itens tiveram suas curvas de funções de resposta ao item comparadas visualmente com o padrão de respostas empírico dos alunos.  agrupados em percentiles segundo suas notas para diagnosticar comportamentos claramente anormais que fogem do que seria esperado de uma questão com um padrão sigmóide monotônico (essas são as curvas dos gráficos presentes na matéria). 
 
-Dos XXX itens suspeitos de serem inadequados (que não passaram em algum filtro citado acima), somente 30 foram considerados claramente inadequados após essa inspeção. Um item polêmico, o que trata de uma história de uma lésbica, tem algumas caractériscas indesejadas como baixa discriminação e discrepância com o modelo, porém ao analisar a curva de proeficiência se verifica que no final da escala há um claro aumento chance de acerto, de forma que os alunos com proeficiência nos níveis mais altos tem maior chance de acerto. Parece se tratar de uma questão com dificuldade muito alta, próxima do fim da escala do Enem, porém ainda dentro dela, de forma que não foi considerada claramente inadequada. 
-
+Dos 43 itens suspeitos de serem inadequados (que não passaram em algum filtro citado acima), somente 17 foram considerados claramente inadequados após essa inspeção, o único polêmico, não o foi. 
