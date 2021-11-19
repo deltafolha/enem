@@ -8,21 +8,23 @@ Eles fazem parte da TRI (Teoria da Resposta ao Item) de 3 parâmetros, metodolog
 
 ## Dados:
 
-* As respostas e notas dos alunos foram obtidas a partir dos microdados do Enem disponibilizados pelo Inep\*; 
+* As respostas e notas dos alunos foram obtidas a partir dos [microdados do Enem disponibilizados pelo Inep](https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/enem)\*; 
+
 * Foram analisadas somente as primeiras aplicações das provas de cada ano\*\*;
+
 * A correspondência entre as questões e as respostas dos alunos  presentes nos microdados foram feitas utilizando os arquivos  “itens_prova” de cada ano\*\*\*.
 
 \* Dois alunos foram removidos porque apresentavam menos respostas do que seria o esperado (aluno com ID 400000364244 de 2012 apresentava 40 respostas válidas na prova de LC e aluno com ID 100000703699 apresentava 44 respostas válidas na prova de LC em 2009. Em ambos casos eram esperadas 45 respostas válidas)
 
 \*\* Apesar dessa observação não estar presente no dicionário de dados, as provas com ID 101 até 116 de 2010 são reaplicaçõe;.
 
-\*\*\* A prova rosa de 2014 de linguagens e códigos (ID 198) apresenta ordenação errada no arquivo “itens_prova”, por isso para esse caso específico foi utilizada a ordem disponível pelo curso objetivo aqui.
+\*\*\* A prova rosa de 2014 de linguagens e códigos (ID 198) apresenta ordenação errada no arquivo “itens_prova”, por isso para esse caso específico foi utilizada a ordem disponível pelo curso objetivo [aqui](https://www.curso-objetivo.br/vestibular/resolucao_comentada/enem/enem2014_2dia.asp?img=01). Foi confirmada que essa ordem está correta, pois a ordenação das respotas corretas dela bate com a do gabarito presente nos microdados. 
 
 ## Cálculo dos parâmetros das questões utilizando o modelo de 3 parâmetros da teoria da resposta ao ítem:
 
 Em cada prova os alunos foram agrupados pela quantidade de acertos. Foram removidos grupos com menos de 50 alunos. Em grupos com menos de 500 alunos todos os alunos foram selecionados, nos demais grupos se sorteou 500 alunos. Essa seleção foi feita para que tenha uma representação mais homogênea de alunos de diferentes habilidades do que ocorreria se simplesmente se sorteassem os alunos.
 
-Os itens foram calibrados com função mirt do pacote mirt da linguagem de programação R. Os parâmetros que não estão descritos aqui é porque foram utilizados os valores padrões da função.
+Os itens foram calibrados com função [mirt](https://www.rdocumentation.org/packages/mirt/versions/1.34/topics/mirt) do pacote [mirt](https://www.rdocumentation.org/packages/mirt/versions/1.34) da linguagem de programação R. Os parâmetros que não estão descritos aqui é porque foram utilizados os valores padrões da função.
 
 * Se utilizou o modelo de 3 parâmetros
 
@@ -61,7 +63,7 @@ Os itens foram calibrados com função mirt do pacote mirt da linguagem de progr
 A dificuldade dos itens foram estimadas de duas formas:
 
 1. Porcentagem do total de alunos que acertaram o item;
-2. Parâmetro de dificuldade obtido utilizando a função coef do pacote mirt da linguagem de programação R, utilizando o modelo definido acima.
+2. Parâmetro de dificuldade obtido utilizando a função [coef](https://www.rdocumentation.org/packages/mirt/versions/1.6.1/topics/coef-method) do pacote mirt da linguagem de programação R, utilizando o modelo definido acima.
 
 ## Gráfico na reportagem:
 
@@ -83,7 +85,7 @@ Para verificar se a dificuldade está relacionada com a ordem que a questão oco
 
     d. Calculou para cada item a distância entre os parâmetros b e p do item em menor posição, ou seja, a distância da dificuldade desta prova em relação a quando o item apareceu na menor posição; 
     
-2. Se fez uma regressão entre a posição ponderada (item 1.c) e a distância das dificuldades (item 1.d). 
+2. Se fez uma regressão linear entre a posição ponderada (item 1.c) e a distância das dificuldades (item 1.d). 
 
 O coeficiente da posição relativa em função da distância do parâmetro p foi de -0.083 (±0.006; p-valor: < 2.2e-16), ou seja a cada posição mais avançada do item a chance de acerto cai 0.08 pontos percentuais, e do parâmetro b foi de + 0.006 (± 0.0.0002; p-valor:2.2e-16). Assim, em ambos casos há uma correlação entre posição mais posterior do item e aumento da dificuldade do item para os alunos.
 
