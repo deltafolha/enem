@@ -73,10 +73,14 @@ Para verificar se a dificuldade está relacionada com a ordem que a questão oco
 
 1. para cada conjunto de cada prova de cada área em cada ano se:
     a. Estimou o modelo (conforme descrito acima, mas separadamente para alunos que fizeram a prova de determinada cor);
+    
     b. Extraiu o parâmetro de dificuldade (b) de cada item do modelo;
+    
     c. Calculou a porcentagem de acerto de cada item (p), considerando todos os alunos;
-Ponderou a posição dos itens subtraindo a menor posição que o item aparece entre todas as provas (posicao ponderada).. Assim, se o mesmo item aparece nas posições 10, 20, 25 e 45, a posição ponderada dele calculada será calculada subtraindo-se 10 (menor posição) e o ítem terá esses valores de 0, 10, 15, 25 para cada prova.
+Ponderou a posição dos itens subtraindo a menor posição que o item aparece entre todas as provas (posicao ponderada).. Assim, se o mesmo item aparece nas posições 10, 20, 25 e 45, a posição ponderada dele calculada será calculada subtraindo-se 10 (menor posição) e o ítem terá esses valores de 0, 10, 15, 25 para cada prova;
+
     d. Calculou para cada item a distância entre os parâmetros b e p  do item em menor posição, ou seja, a distância da dificuldade desta prova em relação a quando o item apareceu em outra posição; 
+    
 2. Se fez uma regressão entre a posição ponderada e a distância das dificuldades. 
 
 O coeficiente da posição relativa em função da distância do parâmetro p em função foi de -0.083 (±0.006; p-valor: < 2.2e-16), ou seja a cada posição mais avançada do item a chance de acerto cai 0.08 pontos percentuais, e do parâmetro b foi de + 0.006 (± 0.0.0002; p-valor:2.2e-16). Assim, em ambos casos há uma correlação entre posição mais posterior do item e aumento da dificuldade do item para os alunos.
