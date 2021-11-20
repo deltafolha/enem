@@ -29,32 +29,32 @@ Foram consideradas na análise 24 questões que abordam temas como ditadura mili
 
 Foram selecionados itens que tratam da ditatura ou que foram alvos de críticas por um suposto viés ideológico. Abaixo a tabela com os itens:
 
-|     id|  ano|area |tipo     |link_critica                                                                                                                   |
-|------:|----:|:----|:--------|:------------------------------------------------------------------------------------------------------------------------------|
-|  68887| 2014|ch   |critica  |[link](https://oglobo.globo.com/brasil/educacao/academicos-atacam-doutrinacao-do-enem-14546063)                                |
-|  14258| 2015|ch   |critica  |[link](https://oglobo.globo.com/brasil/educacao/especialistas-se-dividem-sobre-doutrinacao-em-prova-do-enem-17909168)          |
-|  38029| 2015|ch   |critica  |[link](http://g1.globo.com/educacao/enem/2015/noticia/2015/10/deputados-bolsonaro-e-feliciano-acusam-enem-de-doutrinacao.html) |
-| 112076| 2018|lc   |critica  |[link](https://twitter.com/francischini_/status/1059265756339363840?lang=en)                                                   |
-| 112113| 2018|lc   |critica  |NA                                                                                                                             |
-|  60218| 2009|lc   |ditadura |NA                                                                                                                             |
-|  60220| 2009|lc   |ditadura |NA                                                                                                                             |
-|  70736| 2010|ch   |ditadura |NA                                                                                                                             |
-|  70778| 2010|ch   |ditadura |NA                                                                                                                             |
-|  75440| 2011|ch   |ditadura |NA                                                                                                                             |
-|   7589| 2012|ch   |ditadura |NA                                                                                                                             |
-|  13273| 2012|lc   |ditadura |NA                                                                                                                             |
-|   8604| 2013|ch   |ditadura |NA                                                                                                                             |
-|  24456| 2014|ch   |ditadura |NA                                                                                                                             |
-|  68434| 2014|ch   |ditadura |NA                                                                                                                             |
-|  24576| 2015|ch   |ditadura |NA                                                                                                                             |
-|  82324| 2015|lc   |ditadura |NA                                                                                                                             |
-|  86985| 2016|ch   |ditadura |NA                                                                                                                             |
-|  97744| 2016|ch   |ditadura |NA                                                                                                                             |
-|  24935| 2017|ch   |ditadura |NA                                                                                                                             |
-|  77759| 2017|lc   |ditadura |NA                                                                                                                             |
-|  82891| 2017|lc   |ditadura |NA                                                                                                                             |
-|  98027| 2018|ch   |ditadura |NA                                                                                                                             |
-|  89028| 2018|lc   |ditadura |NA                                                                                                                             |
+|     id|  ano|area | posicao_provaAzul|tipo     |link_critica                                                                                                                   |
+|------:|----:|:----|-----------------:|:--------|:------------------------------------------------------------------------------------------------------------------------------|
+|  68887| 2014|ch   |                33|critica  |[link](https://oglobo.globo.com/brasil/educacao/academicos-atacam-doutrinacao-do-enem-14546063)                                |
+|  14258| 2015|ch   |                29|critica  |[link](https://oglobo.globo.com/brasil/educacao/especialistas-se-dividem-sobre-doutrinacao-em-prova-do-enem-17909168)          |
+|  38029| 2015|ch   |                42|critica  |[link](http://g1.globo.com/educacao/enem/2015/noticia/2015/10/deputados-bolsonaro-e-feliciano-acusam-enem-de-doutrinacao.html) |
+| 112076| 2018|lc   |                20|critica  |[link](https://twitter.com/francischini_/status/1059265756339363840?lang=en)                                                   |
+| 112113| 2018|lc   |                37|critica  |NA                                                                                                                             |
+|  60218| 2009|lc   |                43|ditadura |NA                                                                                                                             |
+|  60220| 2009|lc   |                42|ditadura |NA                                                                                                                             |
+|  70736| 2010|ch   |                35|ditadura |NA                                                                                                                             |
+|  70778| 2010|ch   |                33|ditadura |NA                                                                                                                             |
+|  75440| 2011|ch   |                42|ditadura |NA                                                                                                                             |
+|   7589| 2012|ch   |                15|ditadura |NA                                                                                                                             |
+|  13273| 2012|lc   |                36|ditadura |NA                                                                                                                             |
+|   8604| 2013|ch   |                20|ditadura |NA                                                                                                                             |
+|  24456| 2014|ch   |                28|ditadura |NA                                                                                                                             |
+|  68434| 2014|ch   |                42|ditadura |NA                                                                                                                             |
+|  24576| 2015|ch   |                19|ditadura |NA                                                                                                                             |
+|  82324| 2015|lc   |                39|ditadura |NA                                                                                                                             |
+|  86985| 2016|ch   |                 2|ditadura |NA                                                                                                                             |
+|  97744| 2016|ch   |                13|ditadura |NA                                                                                                                             |
+|  24935| 2017|ch   |                38|ditadura |NA                                                                                                                             |
+|  77759| 2017|lc   |                25|ditadura |NA                                                                                                                             |
+|  82891| 2017|lc   |                24|ditadura |NA                                                                                                                             |
+|  98027| 2018|ch   |                24|ditadura |NA                                                                                                                             |
+|  89028| 2018|lc   |                42|ditadura |NA                                                                                                                             |
 
 
 
