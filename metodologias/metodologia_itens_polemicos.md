@@ -1,4 +1,4 @@
-# Material e métodos do artigo "XXXXXXXXXXXXXXXXXXXX"
+# Material e métodos do artigo "Na mira de Bolsonaro, questões 'ideológicas' e sobre ditadura do Enem são eficientes"
 
 A reportagem se baseia em um modelo estatístico que estima a chance de um candidato acertar uma questão dada a sua proficiência na prova. 
 
@@ -21,6 +21,42 @@ Eles fazem parte da TRI (Teoria da Resposta ao Item) de 3 parâmetros, metodolog
 \*\* Apesar dessa observação não estar presente no dicionário de dados, as provas com ID 101 até 116 de 2010 são reaplicaçõe;.
 
 \*\*\* A prova rosa de 2014 de linguagens e códigos (ID 198) apresenta ordenação errada no arquivo “itens_prova”, por isso para esse caso específico foi utilizada a ordem disponível pelo curso objetivo [aqui](https://www.curso-objetivo.br/vestibular/resolucao_comentada/enem/enem2014_2dia.asp?img=01). Foi confirmada que essa ordem está correta, pois a ordenação das respotas corretas dela bate com a do gabarito presente nos microdados. 
+
+
+## Questões supostamente polêmicas
+
+Foram selecionados itens que tratam da ditatura ou que foram alvos de críticas por um suposto viés ideológico. Abaixo a tabela com os itens:
+
+|     id|link_critica                                                                                                                   |area |  ano| ordem\_provaAzul|tipo     |
+|------:|:------------------------------------------------------------------------------------------------------------------------------|:----|----:|---------------:|:--------|
+|  68887|[link](https://oglobo.globo.com/brasil/educacao/academicos-atacam-doutrinacao-do-enem-14546063)                                |ch   | 2014|              33|critica  |
+|  14258|[link](https://oglobo.globo.com/brasil/educacao/especialistas-se-dividem-sobre-doutrinacao-em-prova-do-enem-17909168)          |ch   | 2015|              29|critica  |
+|  38029|[link](http://g1.globo.com/educacao/enem/2015/noticia/2015/10/deputados-bolsonaro-e-feliciano-acusam-enem-de-doutrinacao.html) |ch   | 2015|              42|critica  |
+| 112076|[link](https://twitter.com/francischini_/status/1059265756339363840?lang=en)                                                   |lc   | 2018|              20|critica  |
+| 112113|NA                                                                                                                             |lc   | 2018|              37|critica  |
+|  60218|NA                                                                                                                             |lc   | 2009|              43|ditadura |
+|  60220|NA                                                                                                                             |lc   | 2009|              42|ditadura |
+|  70736|NA                                                                                                                             |ch   | 2010|              35|ditadura |
+|  70778|NA                                                                                                                             |ch   | 2010|              33|ditadura |
+|  75440|NA                                                                                                                             |ch   | 2011|              42|ditadura |
+|   7589|NA                                                                                                                             |ch   | 2012|              15|ditadura |
+|  13273|NA                                                                                                                             |lc   | 2012|              36|ditadura |
+|   8604|NA                                                                                                                             |ch   | 2013|              20|ditadura |
+|  24456|NA                                                                                                                             |ch   | 2014|              28|ditadura |
+|  68434|NA                                                                                                                             |ch   | 2014|              42|ditadura |
+|  24576|NA                                                                                                                             |ch   | 2015|              19|ditadura |
+|  82324|NA                                                                                                                             |lc   | 2015|              39|ditadura |
+|  86985|NA                                                                                                                             |ch   | 2016|               2|ditadura |
+|  97744|NA                                                                                                                             |ch   | 2016|              13|ditadura |
+|  24935|NA                                                                                                                             |ch   | 2017|              38|ditadura |
+|  77759|NA                                                                                                                             |lc   | 2017|              25|ditadura |
+|  82891|NA                                                                                                                             |lc   | 2017|              24|ditadura |
+|  98027|NA                                                                                                                             |ch   | 2018|              24|ditadura |
+|  89028|NA                                                                                                                             |lc   | 2018|              42|ditadura |
+
+
+
+
 
 ## Cálculo dos parâmetros das questões utilizando o modelo de 3 parâmetros da teoria da resposta ao ítem:
 
