@@ -113,7 +113,7 @@ Para cada ítem se obteve os seguintes parâmetros a partir do modelo acima e da
 
 * Parâmetro de Discriminação (utilizando a função [mirt::coef](https://rdrr.io/cran/mirt/man/coef-method.html)) para detectar itens com pouca capacidade de distinguir alunos segundo sua proeficiência;
 
-\* No caso da correlação bisserial para comparar com achados anteriores, além da amostra homogênea citada acima também se usou um modelo com representação aleatória, com sorteio de 500 mil alunos de cada prova.
+\* No caso da correlação bisserial para [comparar com achados anteriores](https://www.scielo.br/j/ep/a/VTkvKPkp9Vvt3Z7JM3dxNSn/?lang=pt#), além da amostra homogênea citada acima também se usou um modelo com representação aleatória, com sorteio de 500 mil alunos de cada prova.
 
 Itens que apresentaram correlação bisserial menor que 0.3,  raiz quadrada média do erro de aproximação da estatística de ajuste de Bocks maior que 0.05, coeficiente Crit maior que 80 ou parâmetro de discriminação menor que 0.34 foram selecionados como "suspeitos de serem inadequados".
 
