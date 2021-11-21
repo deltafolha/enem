@@ -121,4 +121,10 @@ Itens que apresentaram correlação bisserial menor que 0.3,  raiz quadrada méd
 
 Na literatura sobre o assunto é recomendado que os limiares que classificam os ítens sejam interpretados com cautela e que se faça uma análise das curvas de funções de respostas observada (com porcentagem de acerto no eixo Y e a proficiência no eixo X), junto com o enunciado e opções da questão para compreender se de fato há uma inadequação do item. Logo, essas questões tiveram suas curvas de funções de resposta ao item comparadas visualmente com o padrão de respostas empírico dos alunos,  agrupados em percentiles segundo suas notas para diagnosticar comportamentos claramente anormais que fogem do que seria esperado de uma questão com um padrão sigmóide monotônico (essas são as curvas dos gráficos presentes na reportagem). 
 
-Dos 43 itens suspeitos de serem inadequados (que não passaram em algum filtro citado acima), somente 17 foram considerados claramente inadequados após essa inspeção. O único supostamente polêmico dentreesses 43 suspeitos não foi considerado inadequado. 
+Dos 43 itens suspeitos de serem inadequados (que não passaram em algum filtro citado acima), somente 17 foram considerados claramente inadequados após essa inspeção. O único supostamente polêmico dentre esses 43 suspeitos não foi considerado claramente inadequado, pois ainda que sua curva não seja claramente uma sigmóide, pois tem duas regiões de "subida" com um plateau entre elas, o que explica ela ter sido detectada pelo RMSE.X2 como inadequada, ela possui uma clara tendência de subida. 
+
+Aqui a função de respostas observada (bolas) e a previsão do modelo na questão. 
+
+Aqui a função de respostas observada de uma questão que foi diagnosticada como claramente inadequada. 
+
+
