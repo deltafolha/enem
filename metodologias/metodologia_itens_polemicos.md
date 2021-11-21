@@ -125,10 +125,10 @@ Dos 43 itens suspeitos de serem inadequados (que não passaram em algum filtro c
 
 Aqui a função de respostas observada (bolas) e a previsão do modelo na questão. 
 
-<img src="https://user-images.githubusercontent.com/94707416/142745070-3672ad75-5892-4849-9c42-6f35639d1fd0.png" width="250">
+<img src="https://user-images.githubusercontent.com/94707416/142745070-3672ad75-5892-4849-9c42-6f35639d1fd0.png" width="500">
 
 Aqui a função de respostas observada de uma questão que foi diagnosticada como claramente inadequada. 
 
-<img src="https://user-images.githubusercontent.com/94707416/142745075-cba680ec-cda2-4e6f-b24e-3bb032d3763c.png" width="250">
+<img src="https://user-images.githubusercontent.com/94707416/142745075-cba680ec-cda2-4e6f-b24e-3bb032d3763c.png" width="500">
 
 
