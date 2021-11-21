@@ -123,11 +123,11 @@ Na literatura sobre o assunto é recomendado que os limiares que classificam os 
 
 Dos 43 itens suspeitos de serem inadequados (que não passaram em algum filtro citado acima), somente 17 foram considerados claramente inadequados após essa inspeção. O único supostamente polêmico dentre esses 43 suspeitos não foi considerado claramente inadequado, pois ainda que sua curva não seja claramente uma sigmóide, pois tem duas regiões de "subida" com um plateau entre elas, o que explica ela ter sido detectada pelo RMSE.X2 como inadequada, ela possui uma clara tendência de subida. 
 
-Aqui a função de respostas observada (bolas) e a previsão do modelo na questão. 
+Aqui a função de respostas observada (bolas) e a previsão do modelo na questão (linha vermelha). 
 
 <img src="https://user-images.githubusercontent.com/94707416/142745070-3672ad75-5892-4849-9c42-6f35639d1fd0.png" width="500">
 
-Aqui a função de respostas observada de uma questão que foi diagnosticada como claramente inadequada. 
+Aqui a função de respostas observada de uma questão que foi diagnosticada como claramente inadequada. Perceba que não só ela não se adequa ao modelo, como também alunos com proeficiência média e alta tem menor chance de acertar que os alunos com menores proeficiência.
 
 <img src="https://user-images.githubusercontent.com/94707416/142745075-cba680ec-cda2-4e6f-b24e-3bb032d3763c.png" width="500">
 
