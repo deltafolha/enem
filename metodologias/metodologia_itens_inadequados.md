@@ -108,7 +108,7 @@ Dos 30 itens considerados claramente inadequados, identificamos que 21 não tive
 
 # Resultados
 
-(Link para a tabela com os parâmetrosd e classificações dos itens.)[https://github.com/deltafolha/enem/blob/main/metodologias/indices_fits.csv]
+[Link para a tabela com os parâmetrosd e classificações dos itens](https://github.com/deltafolha/enem/blob/main/metodologias/indices_fits.csv)
 
 Descrição das colunas:
 
@@ -145,7 +145,7 @@ Descrição das colunas:
 * *flag_inadequado_1*: Itens _flag_inadequado_1_ + _flag_nao_contou_
 
 
-(Link para pasta com todos os gráficos da análise dos itens "suspeitos de serem inadequados".)[https://github.com/deltafolha/enem/tree/main/metodologias/graficos_fit_itens]
+[Link para pasta com todos os gráficos da análise dos itens "suspeitos de serem inadequados"](https://github.com/deltafolha/enem/tree/main/metodologias/graficos_fit_itens)
 
 
 Abaixo tabela com itens inadequados ou que não foram considerados na pontuação:
