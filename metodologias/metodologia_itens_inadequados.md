@@ -1,4 +1,4 @@
-# Material e métodos do artigo ["Questões inadequadas compõem 2% do Enem e não contam para nota"](https://www1.folha.uol.com.br/educacao/2021/11/questoes-inadequadas-compoem-2-do-enem-e-nao-contam-para-nota.shtml)
+# Material e métodos da reportagem ["Questões inadequadas compõem 2% do Enem e não contam para nota"](https://www1.folha.uol.com.br/educacao/2021/11/questoes-inadequadas-compoem-2-do-enem-e-nao-contam-para-nota.shtml)
 
 A reportagem, feita a partir dos microdados do Enem, se baseia em um modelo estatístico que estima a chance de um candidato acertar uma questão dada a sua proficiência na prova.
 
