@@ -147,3 +147,49 @@ Descrição das colunas:
 
 (Link para pasta com todos os gráficos da análise dos itens "suspeitos de serem inadequados".)[https://github.com/deltafolha/enem/tree/main/metodologias/graficos_fit_itens]
 
+
+Abaixo tabela com itens inadequados ou que não foram considerados na pontuação:
+
+|     id|  ano|area | posicao_provaAzul| flag_inadequado_1| flag_nao_contou|link_grafico                                                                                              |
+|------:|----:|:----|-----------------:|-----------------:|---------------:|:---------------------------------------------------------------------------------------------------------|
+|  60141| 2009|cn   |                31|                 1|               1|[link](https://raw.githubusercontent.com/deltafolha/enem/main/metodologias/graficos_fit_itens/60141.png)  |
+|  60261| 2009|mt   |                36|                 1|               1|[link](https://raw.githubusercontent.com/deltafolha/enem/main/metodologias/graficos_fit_itens/60261.png)  |
+|  60236| 2009|mt   |                45|                 1|               1|[link](https://raw.githubusercontent.com/deltafolha/enem/main/metodologias/graficos_fit_itens/60236.png)  |
+|  71954| 2010|ch   |                21|                 1|               1|[link](https://raw.githubusercontent.com/deltafolha/enem/main/metodologias/graficos_fit_itens/71954.png)  |
+|  73447| 2010|ch   |                22|                 1|               1|[link](https://raw.githubusercontent.com/deltafolha/enem/main/metodologias/graficos_fit_itens/73447.png)  |
+|  72500| 2010|lc   |                24|                 1|               1|[link](https://raw.githubusercontent.com/deltafolha/enem/main/metodologias/graficos_fit_itens/72500.png)  |
+|  73715| 2010|lc   |                27|                 1|               1|[link](https://raw.githubusercontent.com/deltafolha/enem/main/metodologias/graficos_fit_itens/73715.png)  |
+|  33363| 2013|mt   |                39|                 1|               1|[link](https://raw.githubusercontent.com/deltafolha/enem/main/metodologias/graficos_fit_itens/33363.png)  |
+|  49314| 2014|cn   |                 6|                 1|               1|[link](https://raw.githubusercontent.com/deltafolha/enem/main/metodologias/graficos_fit_itens/49314.png)  |
+|  45270| 2014|cn   |                 8|                 1|               1|[link](https://raw.githubusercontent.com/deltafolha/enem/main/metodologias/graficos_fit_itens/45270.png)  |
+|  39467| 2014|lc   |                36|                 1|               1|[link](https://raw.githubusercontent.com/deltafolha/enem/main/metodologias/graficos_fit_itens/39467.png)  |
+|  86885| 2016|ch   |                25|                 1|               1|[link](https://raw.githubusercontent.com/deltafolha/enem/main/metodologias/graficos_fit_itens/86885.png)  |
+|  83000| 2016|lc   |                23|                 1|               1|[link](https://raw.githubusercontent.com/deltafolha/enem/main/metodologias/graficos_fit_itens/83000.png)  |
+|  97244| 2016|lc   |                39|                 1|               1|[link](https://raw.githubusercontent.com/deltafolha/enem/main/metodologias/graficos_fit_itens/97244.png)  |
+|  82449| 2017|ch   |                36|                 1|               1|[link](https://raw.githubusercontent.com/deltafolha/enem/main/metodologias/graficos_fit_itens/82449.png)  |
+|  64059| 2017|cn   |                20|                 1|               1|[link](https://raw.githubusercontent.com/deltafolha/enem/main/metodologias/graficos_fit_itens/64059.png)  |
+|  82352| 2017|mt   |                 8|                 1|               1|[link](https://raw.githubusercontent.com/deltafolha/enem/main/metodologias/graficos_fit_itens/82352.png)  |
+| 111564| 2018|cn   |                38|                 1|               1|[link](https://raw.githubusercontent.com/deltafolha/enem/main/metodologias/graficos_fit_itens/111564.png) |
+| 118067| 2019|ch   |                 3|                 1|               1|[link](https://raw.githubusercontent.com/deltafolha/enem/main/metodologias/graficos_fit_itens/118067.png) |
+|  83609| 2019|cn   |                32|                 1|               1|[link](https://raw.githubusercontent.com/deltafolha/enem/main/metodologias/graficos_fit_itens/83609.png)  |
+| 118260| 2019|lc   |                33|                 1|               1|[link](https://raw.githubusercontent.com/deltafolha/enem/main/metodologias/graficos_fit_itens/118260.png) |
+|  60199| 2009|ch   |                22|                 1|               0|[link](https://raw.githubusercontent.com/deltafolha/enem/main/metodologias/graficos_fit_itens/60199.png)  |
+|  71083| 2010|mt   |                12|                 1|               0|[link](https://raw.githubusercontent.com/deltafolha/enem/main/metodologias/graficos_fit_itens/71083.png)  |
+|  71233| 2010|mt   |                28|                 1|               0|[link](https://raw.githubusercontent.com/deltafolha/enem/main/metodologias/graficos_fit_itens/71233.png)  |
+|  59475| 2010|mt   |                45|                 1|               0|[link](https://raw.githubusercontent.com/deltafolha/enem/main/metodologias/graficos_fit_itens/59475.png)  |
+|  73678| 2011|cn   |                29|                 1|               0|[link](https://raw.githubusercontent.com/deltafolha/enem/main/metodologias/graficos_fit_itens/73678.png)  |
+|  39902| 2013|ch   |                 6|                 1|               0|[link](https://raw.githubusercontent.com/deltafolha/enem/main/metodologias/graficos_fit_itens/39902.png)  |
+|  43465| 2013|mt   |                30|                 1|               0|[link](https://raw.githubusercontent.com/deltafolha/enem/main/metodologias/graficos_fit_itens/43465.png)  |
+| 117798| 2019|mt   |                11|                 1|               0|[link](https://raw.githubusercontent.com/deltafolha/enem/main/metodologias/graficos_fit_itens/117798.png) |
+|  83955| 2019|mt   |                42|                 1|               0|[link](https://raw.githubusercontent.com/deltafolha/enem/main/metodologias/graficos_fit_itens/83955.png)  |
+|  60138| 2009|cn   |                27|                 0|               1|[link](https://raw.githubusercontent.com/deltafolha/enem/main/metodologias/graficos_fit_itens/60138.png)  |
+|  58553| 2010|ch   |                25|                 0|               1|[link](https://raw.githubusercontent.com/deltafolha/enem/main/metodologias/graficos_fit_itens/58553.png)  |
+|  72927| 2010|cn   |                10|                 0|               1|[link](https://raw.githubusercontent.com/deltafolha/enem/main/metodologias/graficos_fit_itens/72927.png)  |
+|  70145| 2010|cn   |                22|                 0|               1|[link](https://raw.githubusercontent.com/deltafolha/enem/main/metodologias/graficos_fit_itens/70145.png)  |
+|  59232| 2010|cn   |                25|                 0|               1|[link](https://raw.githubusercontent.com/deltafolha/enem/main/metodologias/graficos_fit_itens/59232.png)  |
+|  73092| 2010|cn   |                27|                 0|               1|[link](https://raw.githubusercontent.com/deltafolha/enem/main/metodologias/graficos_fit_itens/73092.png)  |
+|  73648| 2010|lc   |                38|                 0|               1|[link](https://raw.githubusercontent.com/deltafolha/enem/main/metodologias/graficos_fit_itens/73648.png)  |
+|  29767| 2014|mt   |                24|                 0|               1|[link](https://raw.githubusercontent.com/deltafolha/enem/main/metodologias/graficos_fit_itens/29767.png)  |
+|  84128| 2017|ch   |                23|                 0|               1|[link](https://raw.githubusercontent.com/deltafolha/enem/main/metodologias/graficos_fit_itens/84128.png)  |
+| 111637| 2018|cn   |                33|                 0|               1|[link](https://raw.githubusercontent.com/deltafolha/enem/main/metodologias/graficos_fit_itens/111637.png) |
+|  23065| 2019|mt   |                10|                 0|               1|[link](https://raw.githubusercontent.com/deltafolha/enem/main/metodologias/graficos_fit_itens/23065.png)  |
