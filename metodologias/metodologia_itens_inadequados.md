@@ -1,10 +1,10 @@
-# Material e métodos do artigo "Na mira de Bolsonaro, questões 'ideológicas' e sobre ditadura do Enem são eficientes"
+# Material e métodos do artigo ["Questões inadequadas compõem 2% do Enem e não contam para nota"](https://www1.folha.uol.com.br/educacao/2021/11/questoes-inadequadas-compoem-2-do-enem-e-nao-contam-para-nota.shtml)
 
 A reportagem, feita a partir dos microdados do Enem, se baseia em um modelo estatístico que estima a chance de um candidato acertar uma questão dada a sua proficiência na prova.
 
 Para isso, foram calculados três parâmetros. São eles: parâmetro de discriminação (mede se a questão consegue diferenciar os candidatos de acordo com o nível de conhecimento naquele tema), parâmetro de dificuldade (indica o nível de dificuldade daquela questão) e parâmetro de acerto casual (estima a chance do candidato acertar porque chutou). 
 
-Eles fazem parte da TRI (Teoria da Resposta ao Item) de 3 parâmetros, metodologia que o Inep utiliza para corrigir e dar nota aos candidatos. O órgão, contudo, não forneceu o valor dos parâmetros que são utilizados, e foi feito um cálculo próprio.
+Eles fazem parte da TRI (Teoria da Resposta ao Item) de três parâmetros, metodologia que o Inep utiliza para corrigir e dar nota aos candidatos. O órgão, contudo, não forneceu o valor dos parâmetros que são utilizados, e foi feito um cálculo próprio.
 
 
 ## Dados:
@@ -15,13 +15,11 @@ Eles fazem parte da TRI (Teoria da Resposta ao Item) de 3 parâmetros, metodolog
 
 * A correspondência entre as questões e as respostas dos alunos presentes nos microdados foram feitas utilizando os arquivos  “itens_prova” de cada ano\*\*\*.
 
-* Como os itens supostamente polêmicos estavam todos nas provas de linguagem e códigos (LC) e de ciências humanas (CH), somente essas provas analisadas. No caso de linguagens foram removidos os itens de inglês e espanhol
-
 \* Dois alunos foram removidos porque apresentavam menos respostas do que seria o esperado (aluno com ID 400000364244 de 2012 apresentava 40 respostas válidas na prova de LC e aluno com ID 100000703699 apresentava 44 respostas válidas na prova de LC em 2009. Em ambos casos eram esperadas 45 respostas válidas)
 
 \*\* Apesar de essa observação não estar presente no dicionário de dados, as provas com ID de 101 a 116 de 2010 são reaplicações;
 
-\*\*\* A prova rosa de 2014 de linguagens e códigos (ID 198) apresenta ordenação errada no arquivo “itens_prova”, por isso para esse caso específico foi utilizada a ordem  [disponinilizada pelo curso objetivo](https://www.curso-objetivo.br/vestibular/resolucao_comentada/enem/enem2014_2dia.asp?img=01). Foi confirmada que essa ordem está correta, pois a ordenação das respotas corretas dela bate com a do gabarito presente nos microdados. 
+\*\*\* A prova rosa de 2014 de linguagens e códigos (ID 198) apresenta ordenação errada no arquivo “itens_prova”, por isso para esse caso específico foi utilizada a ordem  [disponinilizada pelo curso Objetivo](https://www.curso-objetivo.br/vestibular/resolucao_comentada/enem/enem2014_2dia.asp?img=01). Foi confirmada que essa ordem está correta, pois a ordenação das respotas corretas dela bate com a do gabarito presente nos microdados. 
 
 
 
@@ -79,7 +77,7 @@ Para cada ítem se obteve os seguintes parâmetros a partir do modelo acima e da
 
 * Parâmetro de Discriminação (utilizando a função [mirt::coef](https://rdrr.io/cran/mirt/man/coef-method.html)) para detectar itens com pouca capacidade de distinguir alunos segundo sua proeficiência;
 
-\* No caso da correlação bisserial, além da amostra homogênea citada acima também se usou um modelo com representação aleatória, com sorteio de 500 mil alunos de cada prova. Essa análise só foi utilizada para para se testar itens que não tiveram seus acertos ponderados. Isso foi feito, pois se considerou que o Enem possa usar essa amostragem em uma calibragem após a prova. 
+\* No caso da correlação bisserial, além da amostra homogênea citada acima também se usou um modelo com representação aleatória, com sorteio de 500 mil alunos de cada prova. Essa análise só foi utilizada para testar itens que não tiveram seus acertos ponderados. Isso foi feito pois se considerou que o Enem pode usar essa amostragem em uma calibragem após a prova. 
 
 Itens que apresentaram correlação bisserial menor que 0.3,  raiz quadrada média do erro de aproximação da estatística de ajuste de Bocks maior que 0.05, coeficiente Crit maior que 80 ou parâmetro de discriminação menor que 0.34 foram selecionados como "suspeitos de serem inadequados".
 
@@ -103,9 +101,9 @@ Para cada item suspeito de ser inadequado se:
  
 Ou seja, para os mesmos padrões de respostas (excetuando o item em questão) se verificou que acertar ou errar o item não levava a nenhum acréscimo da nota final.
 
-A quantidade de padrões idênticos analisados variou de 1.341 a 58.210 (depedendo do item em questão). Esses padrões abrangem diferentes quantidades de acertos, logo de habilidade. 
+A quantidade de padrões idênticos analisados variou de 1.341 a 58.210 (depedendo do item em questão). Esses padrões abrangem diferentes quantidades de acertos, logo de habilidades. 
 
-Dos 30 itens considerados claramente inadequados, identificamos que 21 não tiveram o acerto considerado (70%). O que demonstra que houve a identificação pelo modelo do INEP que estes itens tinham baixíssima capacidade de discriminação. Também se observou que outros 11 itens que eram "suspeitos de serem inadequados” não haviam sido considerados na pontuação. Esses foram também classificados como inadequados, totalizando 41 itens inadequados. Se considerou esses itens inadequados, pois aparentemente o próprio modelo do Enem identificou que eles não estariam fornecendo informação sobre a proficiência do aluno. 
+Dos 30 itens considerados claramente inadequados, identificamos que 21 não tiveram o acerto considerado (70%). Isso demonstra que houve a identificação pelo modelo do INEP que estes itens tinham baixíssima capacidade de discriminação. Também se observou que outros 11 itens que eram "suspeitos de serem inadequados” não haviam sido considerados na pontuação. Esses foram também classificados como inadequados, totalizando 41 itens inadequados. Foi considerado que esses itens inadequados, uma vez que aparentemente o próprio modelo do Enem identificou que eles não estariam fornecendo informação sobre a proficiência do aluno. 
 
 
 # Resultados
