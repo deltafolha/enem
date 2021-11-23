@@ -1,4 +1,4 @@
-# Material e métodos do artigo "Na mira de Bolsonaro, questões 'ideológicas' e sobre ditadura do Enem são eficientes"
+# Material e métodos da reportagem "Questões do Enem na mira de Bolsonaro são eficientes em testar conhecimento"
 
 A reportagem, feita a partir dos microdados do Enem, se baseia em um modelo estatístico que estima a chance de um candidato acertar uma questão dada a sua proficiência na prova.
 
